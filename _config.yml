@@ -2,7 +2,7 @@ title:              Hikim Blog
 email:              hikim0212@google.com
 #description:        A Blog Theme by Start Bootstrap
 author:             hakin kim
-baseurl:            "/"
+baseurl:            ""
 url:                "https://hikim0212.github.io"
 
 # Social Profiles
