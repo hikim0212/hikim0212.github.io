@@ -14,8 +14,16 @@
         <li class="nav-item">
           <a class="nav-link" href="{{"/about" | relative_url }}">About</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{ "/posts" | relative_url }}">Posts</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Posts</a>
+              <div class="dropdown-menu">
+                <h6 class="dropdown-header">Language</h6>
+                <a class="dropdown-item" href="/category/Java.html">Java</a>
+                <a class="dropdown-item" href="#">Go</a>
+                <div class="dropdown-divider"></div>
+                <h6 class="dropdown-header">Computer Science</h6>
+                <a class="dropdown-item" href="#">Network</a>
+              </div>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{{"/contact" | relative_url }}">Contact</a>
